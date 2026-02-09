@@ -76,9 +76,11 @@ A comprehensive desktop application, built with Python and Tkinter, for managing
 
 <img width="1309" height="931" alt="image" src="https://github.com/user-attachments/assets/23b77d27-8447-4032-8dd1-2b3827750d73" />
 
+
 Status do dispositvo
 
-![Vídeo sem título ‐ Feito com o Clipchamp](https://github.com/user-attachments/assets/cc6b100d-a1ca-4d44-a7ad-31e84b63a8d3)
+https://github.com/user-attachments/assets/923466d9-8d5e-408c-b7a6-ee84f129cbc7
+
 
 
 ## Prerequisites
