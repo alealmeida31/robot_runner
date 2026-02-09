@@ -76,6 +76,10 @@ A comprehensive desktop application, built with Python and Tkinter, for managing
 
 <img width="1309" height="931" alt="image" src="https://github.com/user-attachments/assets/23b77d27-8447-4032-8dd1-2b3827750d73" />
 
+Status do dispositvo
+<img width="1591" height="849" alt="image" src="https://github.com/user-attachments/assets/b8e56d06-f2f7-447f-9ccf-e2c4bd55d917" />
+
+
 ## Prerequisites
 
 Before installing, make sure you have the following software installed and configured in your system's PATH:
