@@ -2,7 +2,7 @@
 
 This repository is a **fork** of the open source project: https://github.com/lucasdeeiroz/robot_runner
 
-## Purpose of This Fork
+## Purpose of the Fork
 
 The purpose of this fork is to **extend and improve existing features** while maintaining compatibility with the original project, focusing on **observability, usability, and better control during automated test execution**.
 
