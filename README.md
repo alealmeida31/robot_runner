@@ -77,42 +77,31 @@ A comprehensive desktop application, built with Python and Tkinter, for managing
 <img width="1309" height="931" alt="image" src="https://github.com/user-attachments/assets/23b77d27-8447-4032-8dd1-2b3827750d73" />
 
 
-**Recent Improvements & Enhancements**
+## Log Management & Runtime Status Enhancements
 
-During the usage of Robot Runner, some improvement points were identified that directly impacted the developer and tester experience. To address these issues, the following enhancements were implemented:
+### Log Generation Controls
 
-**Android Logcat Integration**
+A UI component was implemented with dedicated buttons to manually generate logs across five severity levels, enabling validation and testing of the logging infrastructure.
 
-Previously, capturing Android logs via adb logcat depended on the target application already being open and running. This limitation made it difficult to analyze crashes, startup failures, or unexpected behavior during automated test execution.
-
-**What was improved:**
-
-   *   Native integration of Logcat capture into Robot Runner.
-
-   *   Logcat collection can now start before the application launches.
-
-   *   Ensures that startup logs, crashes, and system events are fully captured.
-
-   *   Logs are associated with the test execution, making debugging more reliable and efficient.
+**Supported log levels:**
+- Verbose  
+- Debug  
+- Info  
+- Warning  
+- Error 
 
 
-**Real-Time Device Status Update During Test Execution**
+## **Device Status Update During Test Execution**
 
-An issue was identified where the device status was not updated correctly while a test was running, which could cause confusion when executing tests on multiple devices simultaneously.
+An enhancement was implemented to improve visibility of device state during automated test execution.
 
-**What was improved:**
+**Implementation details:**
 
-   *   Device status is now updated in real time during test execution.
+While a test is running, the device status shown in the UI is dynamically updated to reflect the execution state.
 
-   *   Clear visual indication of:
+This allows users to easily identify devices that are actively running tests versus idle or disconnected devices.
 
-      *   Device idle
-
-      *   Device running tests
-
-      *   Device finished execution
-
-   *   Prevents accidental reuse of a device that is already executing a test.
+The status update is synchronized with the test execution lifecycle, ensuring accurate, real-time feedback.
 
 ![Gravando 2026-02-09 202638](https://github.com/user-attachments/assets/645b02b4-65ce-4dc8-a055-104e140701e5)
 
