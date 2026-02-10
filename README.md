@@ -114,7 +114,7 @@ An issue was identified where the device status was not updated correctly while 
 
    *   Prevents accidental reuse of a device that is already executing a test.
 
-![Gravando 2026-02-09 200122](https://github.com/user-attachments/assets/6ff91c4f-fbe1-4c46-997a-33344685f6de)
+![Gravando 2026-02-09 202638](https://github.com/user-attachments/assets/645b02b4-65ce-4dc8-a055-104e140701e5)
 
 
 ## Prerequisites
