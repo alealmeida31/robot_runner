@@ -77,10 +77,44 @@ A comprehensive desktop application, built with Python and Tkinter, for managing
 <img width="1309" height="931" alt="image" src="https://github.com/user-attachments/assets/23b77d27-8447-4032-8dd1-2b3827750d73" />
 
 
-Status do dispositvo
+**Recent Improvements & Enhancements**
 
-https://github.com/user-attachments/assets/923466d9-8d5e-408c-b7a6-ee84f129cbc7
+During the usage of Robot Runner, some improvement points were identified that directly impacted the developer and tester experience. To address these issues, the following enhancements were implemented:
 
+**Android Logcat Integration**
+
+Previously, capturing Android logs via adb logcat depended on the target application already being open and running. This limitation made it difficult to analyze crashes, startup failures, or unexpected behavior during automated test execution.
+
+**What was improved:**
+
+   *   Native integration of Logcat capture into Robot Runner.
+
+   *   Logcat collection can now start before the application launches.
+
+   *   Ensures that startup logs, crashes, and system events are fully captured.
+
+   *   Logs are associated with the test execution, making debugging more reliable and efficient.
+
+
+**Real-Time Device Status Update During Test Execution**
+
+An issue was identified where the device status was not updated correctly while a test was running, which could cause confusion when executing tests on multiple devices simultaneously.
+
+**What was improved:**
+
+   *   Device status is now updated in real time during test execution.
+
+   *   Clear visual indication of:
+
+      *   Device idle
+
+      *   Device running tests
+
+      *   Device finished execution
+
+   *   Prevents accidental reuse of a device that is already executing a test.
+
+![Gravando 2026-02-09 200122](https://github.com/user-attachments/assets/6ff91c4f-fbe1-4c46-997a-33344685f6de)
 
 
 ## Prerequisites
