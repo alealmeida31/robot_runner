@@ -29,6 +29,10 @@ A dedicated UI component was implemented with buttons to manually generate logs 
 - Warning  
 - Error
 
+<img width="1365" height="720" alt="Captura de tela 2026-02-09 213357" src="https://github.com/user-attachments/assets/9ac97079-ab9d-4a3a-8c45-99bfe88cfd84" />
+<img width="1364" height="719" alt="Captura de tela 2026-02-09 213429" src="https://github.com/user-attachments/assets/d4b3511f-eb9e-40e3-a805-d5c12f4e2589" />
+
+
 ## Dynamic Device Status Updates During Test Execution
 
 An enhancement was implemented to improve visibility of device states while automated tests are running.
@@ -37,7 +41,7 @@ An enhancement was implemented to improve visibility of device states while auto
 
    *   During test execution, the device status displayed in the UI is updated dynamically.
    *   The status clearly indicates whether a device is:
-       - Running tests
+       - busy
        - Available
 
 Status updates are synchronized with the test execution lifecycle to ensure accurate, real-time feedback.
