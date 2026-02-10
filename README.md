@@ -147,7 +147,7 @@ Before installing, make sure you have the following software installed and confi
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/lucasdeeiroz/robot_runner.git
+    https://github.com/alealmeida31/robot_runner
     cd robot_runner
     ```
 
