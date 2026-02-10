@@ -1,7 +1,6 @@
 # Robot Runner – Fork with Enhancements
 
-This repository is a **fork** of the open source project:  
-https://github.com/lucasdeeiroz/robot_runner (branch `EOL_branch`)
+This repository is a **fork** of the open source project: https://github.com/lucasdeeiroz/robot_runner
 
 ## Purpose of This Fork
 
