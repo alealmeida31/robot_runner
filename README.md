@@ -1,3 +1,50 @@
+# Robot Runner – Fork with Enhancements
+
+This repository is a **fork** of the open source project:  
+https://github.com/lucasdeeiroz/robot_runner (branch `EOL_branch`)
+
+## Purpose of This Fork
+
+The purpose of this fork is to **extend and improve existing features** while maintaining compatibility with the original project, focusing on **observability, usability, and better control during automated test execution**.
+
+
+This fork was created to:
+
+- Improve **log management and visualization**
+- Facilitate **analysis during test execution**
+- Provide clearer **real-time device status**
+- Enhance **usability for testing and debugging workflows**
+
+All improvements are **incremental** and **non-breaking**, meaning no existing functionality from the original project was removed or altered.
+
+## Enhancements Implemented in This Fork
+
+### 1. Log Generation Controls
+
+A dedicated UI component was implemented with buttons to manually generate logs across multiple severity levels, allowing validation and testing of the logging infrastructure.
+
+**Supported log levels:**
+- Verbose  
+- Debug  
+- Info  
+- Warning  
+- Error
+
+## Dynamic Device Status Updates During Test Execution
+
+An enhancement was implemented to improve visibility of device states while automated tests are running.
+
+**Implementation details:**
+
+   *   During test execution, the device status displayed in the UI is updated dynamically.
+   *   The status clearly indicates whether a device is:
+       - Running tests
+       - Available
+
+Status updates are synchronized with the test execution lifecycle to ensure accurate, real-time feedback.
+
+![Gravando 2026-02-09 202638](https://github.com/user-attachments/assets/645b02b4-65ce-4dc8-a055-104e140701e5)
+
 # Robot Runner - A GUI for Android Automation with Robot Framework
 
 A comprehensive desktop application, built with Python and Tkinter, for managing and running Robot Framework tests on Android devices. It integrates ADB, Scrcpy, Appium, and a UI Inspector into a single, user-friendly, multilingual interface (English, Portuguese, and Spanish).
@@ -75,35 +122,6 @@ A comprehensive desktop application, built with Python and Tkinter, for managing
     *   Customize the appearance with themes (light/dark) and change the application language.
 
 <img width="1309" height="931" alt="image" src="https://github.com/user-attachments/assets/23b77d27-8447-4032-8dd1-2b3827750d73" />
-
-
-## Log Management & Runtime Status Enhancements
-
-### Log Generation Controls
-
-A UI component was implemented with dedicated buttons to manually generate logs across five severity levels, enabling validation and testing of the logging infrastructure.
-
-**Supported log levels:**
-- Verbose  
-- Debug  
-- Info  
-- Warning  
-- Error 
-
-
-## **Device Status Update During Test Execution**
-
-An enhancement was implemented to improve visibility of device state during automated test execution.
-
-**Implementation details:**
-
-While a test is running, the device status shown in the UI is dynamically updated to reflect the execution state.
-
-This allows users to easily identify devices that are actively running tests versus idle or disconnected devices.
-
-The status update is synchronized with the test execution lifecycle, ensuring accurate, real-time feedback.
-
-![Gravando 2026-02-09 202638](https://github.com/user-attachments/assets/645b02b4-65ce-4dc8-a055-104e140701e5)
 
 
 ## Prerequisites
