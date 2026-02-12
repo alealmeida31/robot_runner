@@ -41,14 +41,14 @@ An enhancement was implemented to improve visibility of device states while auto
 
    *   During test execution, the device status displayed in the UI is updated dynamically.
    *   The status clearly indicates whether a device is:
-       - Busy
        - Available
 
 Status updates are synchronized with the test execution lifecycle to ensure accurate, real-time feedback.
 
 ![Gravando 2026-02-09 202638](https://github.com/user-attachments/assets/645b02b4-65ce-4dc8-a055-104e140701e5)
 
-# Robot Runner - A GUI for Android Automation with Robot Framework
+
+## Robot Runner - A GUI for Android Automation with Robot Framework
 
 A comprehensive desktop application, built with Python and Tkinter, for managing and running Robot Framework tests on Android devices. It integrates ADB, Scrcpy, Appium, and a UI Inspector into a single, user-friendly, multilingual interface (English, Portuguese, and Spanish).
 
