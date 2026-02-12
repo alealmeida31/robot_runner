@@ -41,12 +41,13 @@ An enhancement was implemented to improve visibility of device states while auto
 
    *   During test execution, the device status displayed in the UI is updated dynamically.
    *   The status clearly indicates whether a device is:
-       - Available
+       - Busy
 
 Status updates are synchronized with the test execution lifecycle to ensure accurate, real-time feedback.
 
 ![Gravando 2026-02-09 202638](https://github.com/user-attachments/assets/645b02b4-65ce-4dc8-a055-104e140701e5)
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Robot Runner - A GUI for Android Automation with Robot Framework
 
